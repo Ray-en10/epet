@@ -1,0 +1,54 @@
+.prodpage{padding-top: 120px;}
+.prod {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .prodimg {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .prod h2 {
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+  }
+  .seemorebut2 {
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #21aa03;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .seemorebut2:hover {
+    background-color: #3bec14;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .seemorebut2:active {
+    background-color: #1f6b0e;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  .buttonss{display: flex;justify-content: space-around;}
+  
+  .bold{
+    font-weight: bold;
+  }
+  
